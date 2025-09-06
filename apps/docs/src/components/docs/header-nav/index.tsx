@@ -28,7 +28,7 @@ export const HeaderNav = () => {
         })}
       >
         <Icons.logoWithText className={css({ h: '6' })} />
-        <span className={css({ srOnly: true })}>Shadow Panda</span>
+        <span className={css({ srOnly: true })}>AuroraKit</span>
       </Link>
       <nav
         className={css({

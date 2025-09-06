@@ -21,7 +21,7 @@ export const MobileHeaderNav = () => {
         })}
       >
         <Icons.logo className={css({ h: '6', w: '6' })} />
-        <span className={css({ srOnly: true })}>Shadow Panda</span>
+        <span className={css({ srOnly: true })}>AuroraKit</span>
       </Link>
     </div>
   )

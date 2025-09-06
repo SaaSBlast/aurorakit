@@ -1,7 +1,12 @@
 {
   "name": "@aurorakit/preset",
-  "description": "The preset for PandaCSS that contains the theme for Shadow Panda",
+  "description": "The preset for PandaCSS that contains the theme for AuroraKit",
   "version": "0.7.1",
+  "keywords": [
+    "pandacss",
+    "shadcn",
+    "radix"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",

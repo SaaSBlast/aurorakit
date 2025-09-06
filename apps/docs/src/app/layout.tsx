@@ -13,17 +13,17 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 const commonMetadata = {
   title: {
-    default: 'Shadow Panda',
-    template: '%s | Shadow Panda',
+    default: 'AuroraKit',
+    template: '%s | AuroraKit',
   },
   description:
-    'Shadow Panda is a preset of Panda CSS for shadcn/ui & Radix UI, created for developers utilizing Panda CSS as an alternative to Tailwind CSS.',
+    'AuroraKit is a preset of Panda CSS for shadcn/ui & Radix UI, created for developers utilizing Panda CSS as an alternative to Tailwind CSS.',
 }
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   ...commonMetadata,
-  keywords: ['Shadow Panda', 'Panda CSS', 'shadcn/ui', 'Radix UI', 'Components', 'React'],
+  keywords: ['AuroraKit', 'Panda CSS', 'shadcn/ui', 'Radix UI', 'Components', 'React'],
   manifest: '/site.webmanifest',
   openGraph: {
     ...commonMetadata,
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     ...commonMetadata,
-    site: 'Shadow Panda',
+    site: 'AuroraKit',
     card: 'summary_large_image',
     creator: '@nanopx',
   },

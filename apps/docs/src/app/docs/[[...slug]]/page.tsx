@@ -25,7 +25,7 @@ export const generateMetadata = ({ params }: { params: { slug: string[] } }) => 
   }
 
   const ogImage = {
-    alt: `${doc.title} | Shadow Panda`,
+    alt: `${doc.title} | AuroraKit`,
     type: 'image/png',
     width: 1200,
     height: 630,
@@ -43,7 +43,7 @@ export const generateMetadata = ({ params }: { params: { slug: string[] } }) => 
     },
     twitter: {
       ...metadata,
-      site: 'Shadow Panda',
+      site: 'AuroraKit',
       card: 'summary_large_image',
       creator: '@nanopx',
       images: [ogImage],

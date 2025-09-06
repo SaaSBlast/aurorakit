@@ -107,7 +107,7 @@ export default function Example() {
                           fontWeight: 'medium',
                         })}
                       >
-                        Shadow Panda
+                        AuroraKit
                       </div>
                     </Flex>
 
@@ -127,7 +127,7 @@ export default function Example() {
                 Re-usable components built using Radix UI and Panda CSS.
               </ListItem>
               <ListItem href="/docs/overview/getting-started" title="Getting Started">
-                Guide to get started with Shadow Panda
+                Guide to get started with AuroraKit
               </ListItem>
               <ListItem href="/docs/overview/typography" title="Typography">
                 Styles for headings, paragraphs, lists...etc

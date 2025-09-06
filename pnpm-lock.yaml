@@ -180,10 +180,10 @@ importers:
       '@pandacss/dev':
         specifier: 0.17.1
         version: 0.17.1(@internationalized/date@3.5.0)(@types/react-dom@18.2.14)(@types/react@18.2.34)(typescript@5.2.2)
-      '@shadow-panda/preset':
+      '@aurorakit/preset':
         specifier: workspace:*
         version: link:../../packages/preset
-      '@shadow-panda/style-context':
+      '@aurorakit/style-context':
         specifier: workspace:*
         version: link:../../packages/style-context
       '@theguild/remark-npm2yarn':

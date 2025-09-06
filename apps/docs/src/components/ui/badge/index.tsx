@@ -1,5 +1,5 @@
-import { styled, type HTMLStyledProps } from '@shadow-panda/styled-system/jsx'
-import { badge } from '@shadow-panda/styled-system/recipes'
+import { styled, type HTMLStyledProps } from '@aurorakit/styled-system/jsx'
+import { badge } from '@aurorakit/styled-system/recipes'
 
 export const Badge = styled('div', badge)
 

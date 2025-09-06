@@ -1,8 +1,8 @@
 import { ArrowDownIcon, ArrowUpIcon, ArrowUpDownIcon, EyeOffIcon } from 'lucide-react'
 import { Column } from '@tanstack/react-table'
-import { css } from '@shadow-panda/styled-system/css'
-import { Flex } from '@shadow-panda/styled-system/jsx'
-import { icon } from '@shadow-panda/styled-system/recipes'
+import { css } from '@aurorakit/styled-system/css'
+import { Flex } from '@aurorakit/styled-system/jsx'
+import { icon } from '@aurorakit/styled-system/recipes'
 import { Button } from '@/components/ui/button'
 import {
   DropdownMenu,

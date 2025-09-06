@@ -2,7 +2,7 @@
 
 import * as React from 'react'
 import { useMDXComponent } from 'next-contentlayer/hooks'
-import { css } from '@shadow-panda/styled-system/css'
+import { css } from '@aurorakit/styled-system/css'
 import { components } from './components'
 
 interface MdxProps {

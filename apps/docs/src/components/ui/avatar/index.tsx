@@ -1,9 +1,9 @@
 'use client'
 
 import * as AvatarPrimitive from '@radix-ui/react-avatar'
-import { createStyleContext } from '@shadow-panda/style-context'
-import { styled } from '@shadow-panda/styled-system/jsx'
-import { avatar } from '@shadow-panda/styled-system/recipes'
+import { createStyleContext } from '@aurorakit/style-context'
+import { styled } from '@aurorakit/styled-system/jsx'
+import { avatar } from '@aurorakit/styled-system/recipes'
 
 const { withProvider, withContext } = createStyleContext(avatar)
 

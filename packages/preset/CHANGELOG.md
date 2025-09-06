@@ -1,4 +1,4 @@
-# @shadow-panda/preset
+# @aurorakit/preset
 
 ## 0.7.1
 

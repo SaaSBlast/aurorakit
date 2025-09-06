@@ -5,8 +5,8 @@ import { useRouter } from 'next/navigation'
 import { DialogProps } from '@radix-ui/react-alert-dialog'
 import { CircleIcon, FileIcon, LaptopIcon, MoonIcon, SunIcon } from 'lucide-react'
 import { useTheme } from 'next-themes'
-import { css } from '@shadow-panda/styled-system/css'
-import { icon } from '@shadow-panda/styled-system/recipes'
+import { css } from '@aurorakit/styled-system/css'
+import { icon } from '@aurorakit/styled-system/recipes'
 import { Button } from '@/components/ui/button'
 import {
   CommandDialog,

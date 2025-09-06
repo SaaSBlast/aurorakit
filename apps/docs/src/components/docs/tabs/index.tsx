@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { css } from '@shadow-panda/styled-system/css'
+import { css } from '@aurorakit/styled-system/css'
 import * as WrappedTabs from './wrapper'
 
 type TabProps = React.ComponentProps<typeof WrappedTabs.TabsContent>

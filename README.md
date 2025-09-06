@@ -12,18 +12,18 @@ We provide a **preset** for [Panda CSS](https://panda-css.com/) that allows you 
 
 ## Documentation
 
-Visit our documentation: [https://shadow-panda.dev/](https://shadow-panda.dev/)
+Visit our documentation: [https://aurorakit.saasblast.dev/](https://aurorakit.saasblast.dev/)
 
 ## Install
 
 Install the preset and a utility package (used by most components) by running:
 
 ```bash
-npm i -D @shadow-panda/preset
+npm i -D @aurorakit/preset
 ```
 
 ```bash
-npm i @shadow-panda/style-context
+npm i @aurorakit/style-context
 ```
 
 Add the preset to your `panda.config.ts`
@@ -33,7 +33,7 @@ import { defineConfig } from '@pandacss/dev'
 
 export default defineConfig({
   // Required: Add the preset to your config.
-  presets: ['@shadow-panda/preset'],
+  presets: ['@aurorakit/preset'],
 
   // Optional: Enable CSS reset
   preflight: true,
@@ -42,17 +42,17 @@ export default defineConfig({
   jsxFramework: 'react',
 
   // Optional: Emit artifacts to `node_modules` as a package.
-  // The copy-paste component examples use `@shadow-panda/styled-system` as the import path of the generated files.
+  // The copy-paste component examples use `@aurorakit/styled-system` as the import path of the generated files.
   // If you choose not to use this option, you should rewrite your component imports as needed.
   // @see https://panda-css.com/docs/references/config#emitpackage
   emitPackage: true,
-  outdir: '@shadow-panda/styled-system',
+  outdir: '@aurorakit/styled-system',
 
   // Other configurations and overrides...
 })
 ```
 
-Compile Panda CSS, copy [components](https://shadow-panda.dev/docs/overview/supported-components) and use it!
+Compile Panda CSS, copy [components](https://aurorakit.saasblast.dev/docs/overview/supported-components) and use it!
 
 ## Acknowledgement
 
@@ -72,7 +72,7 @@ Also, a huge thanks to:
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nanopx"><img src="https://avatars.githubusercontent.com/u/7698394?v=4?s=100" width="100px;" alt="Atsushi Yoshitake"/><br /><sub><b>Atsushi Yoshitake</b></sub></a><br /><a href="https://github.com/kumaaa-inc/shadow-panda/commits?author=nanopx" title="Code">💻</a> <a href="https://github.com/kumaaa-inc/shadow-panda/commits?author=nanopx" title="Documentation">📖</a> <a href="#design-nanopx" title="Design">🎨</a> <a href="#example-nanopx" title="Examples">💡</a> <a href="#maintenance-nanopx" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nanopx"><img src="https://avatars.githubusercontent.com/u/7698394?v=4?s=100" width="100px;" alt="Atsushi Yoshitake"/><br /><sub><b>Atsushi Yoshitake</b></sub></a><br /><a href="https://github.com/saasblast/aurorakit/commits?author=nanopx" title="Code">💻</a> <a href="https://github.com/saasblast/aurorakit/commits?author=nanopx" title="Documentation">📖</a> <a href="#design-nanopx" title="Design">🎨</a> <a href="#example-nanopx" title="Examples">💡</a> <a href="#maintenance-nanopx" title="Maintenance">🚧</a></td>
     </tr>
   </tbody>
 </table>

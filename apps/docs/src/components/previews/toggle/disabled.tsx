@@ -1,5 +1,5 @@
 import { Underline } from 'lucide-react'
-import { icon } from '@shadow-panda/styled-system/recipes'
+import { icon } from '@aurorakit/styled-system/recipes'
 import { Toggle } from '@/components/ui/toggle'
 
 export default function Example() {

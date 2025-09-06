@@ -1,5 +1,5 @@
 import type { PropsWithChildren } from 'react'
-import { css } from '@shadow-panda/styled-system/css'
+import { css } from '@aurorakit/styled-system/css'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { SidebarNav } from '@/components/docs/sidebar-nav'
 

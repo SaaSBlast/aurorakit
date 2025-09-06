@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { css } from '@shadow-panda/styled-system/css'
-import { link } from '@shadow-panda/styled-system/recipes'
+import { css } from '@aurorakit/styled-system/css'
+import { link } from '@aurorakit/styled-system/recipes'
 
 export const Footer = () => {
   return (

@@ -2,8 +2,8 @@
 
 import * as React from 'react'
 import { ArrowUpCircle, CheckCircle2, Circle, HelpCircle, LucideIcon, XCircle } from 'lucide-react'
-import { css } from '@shadow-panda/styled-system/css'
-import { muted } from '@shadow-panda/styled-system/recipes'
+import { css } from '@aurorakit/styled-system/css'
+import { muted } from '@aurorakit/styled-system/recipes'
 import { Button } from '@/components/ui/button'
 import {
   Command,

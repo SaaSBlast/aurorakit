@@ -1,4 +1,4 @@
-import { styled } from '@shadow-panda/styled-system/jsx'
+import { styled } from '@aurorakit/styled-system/jsx'
 import * as BaseTabs from '@/components/ui/tabs'
 
 export const Tabs = styled(BaseTabs.Tabs, {

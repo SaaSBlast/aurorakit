@@ -1,9 +1,9 @@
 'use client'
 
 import * as CollapsiblePrimitive from '@radix-ui/react-collapsible'
-import { createStyleContext } from '@shadow-panda/style-context'
-import { styled } from '@shadow-panda/styled-system/jsx'
-import { collapsible } from '@shadow-panda/styled-system/recipes'
+import { createStyleContext } from '@aurorakit/style-context'
+import { styled } from '@aurorakit/styled-system/jsx'
+import { collapsible } from '@aurorakit/styled-system/recipes'
 
 const { withProvider, withContext } = createStyleContext(collapsible)
 

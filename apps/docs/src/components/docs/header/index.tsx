@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { css } from '@shadow-panda/styled-system/css'
+import { css } from '@aurorakit/styled-system/css'
 import { Button } from '@/components/ui/button'
 import { HeaderNav } from '@/components/docs/header-nav'
 import { MobileHeaderNav } from '@/components/docs/mobile-header-nav'
@@ -71,7 +71,7 @@ export const Header = () => {
             })}
           >
             <Button variant="ghost" w="9" h="9" px="0" asChild>
-              <Link href="https://github.com/kumaaa-inc/shadow-panda" target="_blank">
+              <Link href="https://github.com/saasblast/aurorakit" target="_blank">
                 <Icons.gitHub className={css({ w: '4', h: '4' })} />
                 <span className={css({ srOnly: true })}>GitHub</span>
               </Link>

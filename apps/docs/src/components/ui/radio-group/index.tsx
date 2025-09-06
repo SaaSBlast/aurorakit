@@ -3,9 +3,9 @@
 import * as React from 'react'
 import * as RadioGroupPrimitive from '@radix-ui/react-radio-group'
 import { Circle } from 'lucide-react'
-import { createStyleContext } from '@shadow-panda/style-context'
-import { styled } from '@shadow-panda/styled-system/jsx'
-import { radioGroup } from '@shadow-panda/styled-system/recipes'
+import { createStyleContext } from '@aurorakit/style-context'
+import { styled } from '@aurorakit/styled-system/jsx'
+import { radioGroup } from '@aurorakit/styled-system/recipes'
 
 const { withProvider, withContext } = createStyleContext(radioGroup)
 

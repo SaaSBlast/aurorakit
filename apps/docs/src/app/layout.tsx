@@ -1,7 +1,7 @@
 import { type Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import type { PropsWithChildren } from 'react'
-import { css } from '@shadow-panda/styled-system/css'
+import { css } from '@aurorakit/styled-system/css'
 import { Header } from '@/components/docs/header'
 import { Footer } from '@/components/docs/footer'
 import { Toaster } from '@/components/ui/toast/toaster'

@@ -1,4 +1,4 @@
-import { Flex } from '@shadow-panda/styled-system/jsx'
+import { Flex } from '@aurorakit/styled-system/jsx'
 import { Label } from '@/components/ui/label'
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 

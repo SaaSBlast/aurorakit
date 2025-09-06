@@ -4,8 +4,8 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { Check, ChevronsUpDown } from 'lucide-react'
 import { useForm } from 'react-hook-form'
 import * as z from 'zod'
-import { css, cx } from '@shadow-panda/styled-system/css'
-import { icon } from '@shadow-panda/styled-system/recipes'
+import { css, cx } from '@aurorakit/styled-system/css'
+import { icon } from '@aurorakit/styled-system/recipes'
 import { Button } from '@/components/ui/button'
 import {
   Command,

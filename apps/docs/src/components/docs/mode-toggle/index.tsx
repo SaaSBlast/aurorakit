@@ -3,7 +3,7 @@
 import * as React from 'react'
 import { MoonIcon, SunIcon } from 'lucide-react'
 import { useTheme } from 'next-themes'
-import { css } from '@shadow-panda/styled-system/css'
+import { css } from '@aurorakit/styled-system/css'
 import { Button } from '@/components/ui/button'
 import {
   DropdownMenu,

@@ -4,9 +4,9 @@ import * as React from 'react'
 import { DialogProps } from '@radix-ui/react-dialog'
 import { Command as CommandPrimitive } from 'cmdk'
 import { Search } from 'lucide-react'
-import { createStyleContext } from '@shadow-panda/style-context'
-import { styled } from '@shadow-panda/styled-system/jsx'
-import { command, commandDialog } from '@shadow-panda/styled-system/recipes'
+import { createStyleContext } from '@aurorakit/style-context'
+import { styled } from '@aurorakit/styled-system/jsx'
+import { command, commandDialog } from '@aurorakit/styled-system/recipes'
 import { Dialog, DialogContent } from '@/components/ui/dialog'
 
 const { withProvider, withContext } = createStyleContext(command)

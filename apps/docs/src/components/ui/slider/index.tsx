@@ -2,9 +2,9 @@
 
 import * as React from 'react'
 import * as SliderPrimitive from '@radix-ui/react-slider'
-import { styled } from '@shadow-panda/styled-system/jsx'
-import { cx } from '@shadow-panda/styled-system/css'
-import { slider } from '@shadow-panda/styled-system/recipes'
+import { styled } from '@aurorakit/styled-system/jsx'
+import { cx } from '@aurorakit/styled-system/css'
+import { slider } from '@aurorakit/styled-system/recipes'
 
 const BaseSlider = React.forwardRef<
   React.ElementRef<typeof SliderPrimitive.Root>,

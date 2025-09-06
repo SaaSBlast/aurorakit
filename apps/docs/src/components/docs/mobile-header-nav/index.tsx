@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { css } from '@shadow-panda/styled-system/css'
+import { css } from '@aurorakit/styled-system/css'
 import { Icons } from '../icons'
 
 export const MobileHeaderNav = () => {

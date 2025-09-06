@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { styled } from '@shadow-panda/styled-system/jsx'
-import { alert, alertTitle, alertDescription } from '@shadow-panda/styled-system/recipes'
+import { styled } from '@aurorakit/styled-system/jsx'
+import { alert, alertTitle, alertDescription } from '@aurorakit/styled-system/recipes'
 
 const BaseAlert = (
   props: React.HTMLAttributes<HTMLDivElement>,

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { css } from '@shadow-panda/styled-system/css'
+import { css } from '@aurorakit/styled-system/css'
 import { AspectRatio } from '@/components/ui/aspect-ratio'
 
 export default function Example() {

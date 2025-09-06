@@ -1,4 +1,4 @@
-import { Flex } from '@shadow-panda/styled-system/jsx'
+import { Flex } from '@aurorakit/styled-system/jsx'
 import { Skeleton } from '@/components/ui/skeleton'
 
 export default function Example() {

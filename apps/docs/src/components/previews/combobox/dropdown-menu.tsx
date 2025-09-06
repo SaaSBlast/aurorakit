@@ -2,8 +2,8 @@
 
 import * as React from 'react'
 import { Calendar, MoreHorizontal, Tags, Trash, User } from 'lucide-react'
-import { css } from '@shadow-panda/styled-system/css'
-import { small } from '@shadow-panda/styled-system/recipes'
+import { css } from '@aurorakit/styled-system/css'
+import { small } from '@aurorakit/styled-system/recipes'
 import { Button } from '@/components/ui/button'
 import {
   Command,

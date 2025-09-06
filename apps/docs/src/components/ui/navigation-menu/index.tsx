@@ -3,10 +3,10 @@
 import * as React from 'react'
 import * as NavigationMenuPrimitive from '@radix-ui/react-navigation-menu'
 import { ChevronDown } from 'lucide-react'
-import { createStyleContext } from '@shadow-panda/style-context'
-import { styled } from '@shadow-panda/styled-system/jsx'
-import { cx } from '@shadow-panda/styled-system/css'
-import { navigationMenu } from '@shadow-panda/styled-system/recipes'
+import { createStyleContext } from '@aurorakit/style-context'
+import { styled } from '@aurorakit/styled-system/jsx'
+import { cx } from '@aurorakit/styled-system/css'
+import { navigationMenu } from '@aurorakit/styled-system/recipes'
 
 const { withProvider, withContext } = createStyleContext(navigationMenu)
 

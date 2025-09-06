@@ -1,5 +1,5 @@
-import { cx, css } from '@shadow-panda/styled-system/css'
-import { lead } from '@shadow-panda/styled-system/recipes'
+import { cx, css } from '@aurorakit/styled-system/css'
+import { lead } from '@aurorakit/styled-system/recipes'
 
 export function Lead({ className, children }: { className?: string; children: React.ReactNode }) {
   return (

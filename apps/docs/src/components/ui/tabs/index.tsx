@@ -1,9 +1,9 @@
 'use client'
 
 import * as TabsPrimitive from '@radix-ui/react-tabs'
-import { createStyleContext } from '@shadow-panda/style-context'
-import { styled } from '@shadow-panda/styled-system/jsx'
-import { tabs } from '@shadow-panda/styled-system/recipes'
+import { createStyleContext } from '@aurorakit/style-context'
+import { styled } from '@aurorakit/styled-system/jsx'
+import { tabs } from '@aurorakit/styled-system/recipes'
 
 const { withProvider, withContext } = createStyleContext(tabs)
 

@@ -1,5 +1,5 @@
-import { css } from '@shadow-panda/styled-system/css'
-import { Grid } from '@shadow-panda/styled-system/jsx'
+import { css } from '@aurorakit/styled-system/css'
+import { Grid } from '@aurorakit/styled-system/jsx'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'

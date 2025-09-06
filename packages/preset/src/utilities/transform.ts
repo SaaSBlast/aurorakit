@@ -2,7 +2,7 @@ import type { UtilityConfig } from '@pandacss/types'
 
 const baseTransform = {
   transform:
-    'translate(var(--shadow-panda-translate-x, 0), var(--shadow-panda-translate-y, 0)) rotate(var(--shadow-panda-rotate, 0)) skewX(var(--shadow-panda-skew-x, 0)) skewY(var(--shadow-panda-skew-y, 0)) scaleX(var(--shadow-panda-scale-x, 1)) scaleY(var(--shadow-panda-scale-y, 1))',
+    'translate(var(--aurorakit-translate-x, 0), var(--aurorakit-translate-y, 0)) rotate(var(--aurorakit-rotate, 0)) skewX(var(--aurorakit-skew-x, 0)) skewY(var(--aurorakit-skew-y, 0)) scaleX(var(--aurorakit-scale-x, 1)) scaleY(var(--aurorakit-scale-y, 1))',
 }
 
 export const transform: UtilityConfig = {
@@ -12,8 +12,8 @@ export const transform: UtilityConfig = {
     transform: (value: string) => {
       return {
         ...baseTransform,
-        '--shadow-panda-translate-x': value,
-        '--shadow-panda-translate-y': value,
+        '--aurorakit-translate-x': value,
+        '--aurorakit-translate-y': value,
       }
     },
   },
@@ -23,7 +23,7 @@ export const transform: UtilityConfig = {
     transform: (value: string) => {
       return {
         ...baseTransform,
-        '--shadow-panda-translate-y': value,
+        '--aurorakit-translate-y': value,
       }
     },
   },
@@ -33,7 +33,7 @@ export const transform: UtilityConfig = {
     transform: (value: string) => {
       return {
         ...baseTransform,
-        '--shadow-panda-translate-x': value,
+        '--aurorakit-translate-x': value,
       }
     },
   },

@@ -1,6 +1,6 @@
-import { Flex } from '@shadow-panda/styled-system/jsx'
-import { css } from '@shadow-panda/styled-system/css'
-import { muted } from '@shadow-panda/styled-system/recipes'
+import { Flex } from '@aurorakit/styled-system/jsx'
+import { css } from '@aurorakit/styled-system/css'
+import { muted } from '@aurorakit/styled-system/recipes'
 import { Separator } from '@/components/ui/separator'
 
 export default function Example() {

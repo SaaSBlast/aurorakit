@@ -1,5 +1,5 @@
-import { Flex } from '@shadow-panda/styled-system/jsx'
-import { muted } from '@shadow-panda/styled-system/recipes'
+import { Flex } from '@aurorakit/styled-system/jsx'
+import { muted } from '@aurorakit/styled-system/recipes'
 import { Label } from '@/components/ui/label'
 import { Checkbox } from '@/components/ui/checkbox'
 

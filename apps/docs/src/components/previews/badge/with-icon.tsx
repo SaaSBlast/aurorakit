@@ -1,5 +1,5 @@
 import { Check } from 'lucide-react'
-import { css } from '@shadow-panda/styled-system/css'
+import { css } from '@aurorakit/styled-system/css'
 import { Badge } from '@/components/ui/badge'
 
 export default function Example() {

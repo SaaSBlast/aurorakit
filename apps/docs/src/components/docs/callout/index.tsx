@@ -1,5 +1,5 @@
 import { Alert, AlertTitle, AlertDescription } from '@/components/ui/alert'
-import { css, cx } from '@shadow-panda/styled-system/css'
+import { css, cx } from '@aurorakit/styled-system/css'
 
 export interface CalloutProps {
   className?: string

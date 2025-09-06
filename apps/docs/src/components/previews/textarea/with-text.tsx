@@ -1,5 +1,5 @@
-import { Grid } from '@shadow-panda/styled-system/jsx'
-import { muted } from '@shadow-panda/styled-system/recipes'
+import { Grid } from '@aurorakit/styled-system/jsx'
+import { muted } from '@aurorakit/styled-system/recipes'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 

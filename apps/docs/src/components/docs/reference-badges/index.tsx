@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { css } from '@shadow-panda/styled-system/css'
-import { badge } from '@shadow-panda/styled-system/recipes'
+import { css } from '@aurorakit/styled-system/css'
+import { badge } from '@aurorakit/styled-system/recipes'
 import { Icons } from '../icons'
 
 export interface ReferenceBadgesProps {

@@ -1,6 +1,6 @@
 import { Loader2 } from 'lucide-react'
-import { css, cx } from '@shadow-panda/styled-system/css'
-import { icon } from '@shadow-panda/styled-system/recipes'
+import { css, cx } from '@aurorakit/styled-system/css'
+import { icon } from '@aurorakit/styled-system/recipes'
 import { Button } from '@/components/ui/button'
 
 export default function Example() {

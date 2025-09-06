@@ -8,8 +8,8 @@ import {
   typographyTable,
   list,
   link,
-} from '@shadow-panda/styled-system/recipes'
-import { cx, css } from '@shadow-panda/styled-system/css'
+} from '@aurorakit/styled-system/recipes'
+import { cx, css } from '@aurorakit/styled-system/css'
 
 export default function Example() {
   return (

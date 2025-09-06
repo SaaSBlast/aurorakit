@@ -2,9 +2,9 @@
 
 import * as React from 'react'
 import Link from 'next/link'
-import { Flex } from '@shadow-panda/styled-system/jsx'
-import { css, cx } from '@shadow-panda/styled-system/css'
-import { icon } from '@shadow-panda/styled-system/recipes'
+import { Flex } from '@aurorakit/styled-system/jsx'
+import { css, cx } from '@aurorakit/styled-system/css'
+import { icon } from '@aurorakit/styled-system/recipes'
 import {
   NavigationMenu,
   NavigationMenuContent,

@@ -1,7 +1,7 @@
 'use client'
 
 import * as React from 'react'
-import { css, cx } from '@shadow-panda/styled-system/css'
+import { css, cx } from '@aurorakit/styled-system/css'
 import { getSlugs, type Toc as TocType } from '@/lib/toc'
 
 function useActiveItem(itemIds: string[]) {

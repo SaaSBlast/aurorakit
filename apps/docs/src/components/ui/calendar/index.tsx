@@ -9,9 +9,9 @@ import {
   type DayPickerMultipleProps,
   type DayPickerRangeProps,
 } from 'react-day-picker'
-import { styled } from '@shadow-panda/styled-system/jsx'
-import { cx } from '@shadow-panda/styled-system/css'
-import { button, icon, calendar } from '@shadow-panda/styled-system/recipes'
+import { styled } from '@aurorakit/styled-system/jsx'
+import { cx } from '@aurorakit/styled-system/css'
+import { button, icon, calendar } from '@aurorakit/styled-system/recipes'
 
 type DayPickerProps =
   | DayPickerDefaultProps

@@ -4,7 +4,7 @@
   "commit": false,
   "fixed": [
     [
-      "@shadow-panda/**"
+      "@aurorakit/**"
     ]
   ],
   "linked": [],
@@ -12,6 +12,6 @@
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
   "ignore": [
-    "@shadow-panda/docs"
+    "@aurorakit/docs"
   ]
 }

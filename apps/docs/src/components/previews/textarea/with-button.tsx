@@ -1,4 +1,4 @@
-import { Grid } from '@shadow-panda/styled-system/jsx'
+import { Grid } from '@aurorakit/styled-system/jsx'
 import { Button } from '@/components/ui/button'
 import { Textarea } from '@/components/ui/textarea'
 

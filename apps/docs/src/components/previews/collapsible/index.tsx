@@ -2,9 +2,9 @@
 
 import * as React from 'react'
 import { ChevronsUpDown } from 'lucide-react'
-import { Box, Flex } from '@shadow-panda/styled-system/jsx'
-import { css } from '@shadow-panda/styled-system/css'
-import { icon } from '@shadow-panda/styled-system/recipes'
+import { Box, Flex } from '@aurorakit/styled-system/jsx'
+import { css } from '@aurorakit/styled-system/css'
+import { icon } from '@aurorakit/styled-system/recipes'
 import { Button } from '@/components/ui/button'
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible'
 

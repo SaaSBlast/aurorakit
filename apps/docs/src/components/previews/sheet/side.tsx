@@ -1,7 +1,7 @@
 'use client'
 
-import { css } from '@shadow-panda/styled-system/css'
-import { Grid } from '@shadow-panda/styled-system/jsx'
+import { css } from '@aurorakit/styled-system/css'
+import { Grid } from '@aurorakit/styled-system/jsx'
 import {
   Sheet,
   SheetTrigger,

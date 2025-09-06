@@ -1,4 +1,4 @@
-import { styled } from '@shadow-panda/styled-system/jsx'
+import { styled } from '@aurorakit/styled-system/jsx'
 import {
   card,
   cardHeader,
@@ -6,7 +6,7 @@ import {
   cardDescription,
   cardContent,
   cardFooter,
-} from '@shadow-panda/styled-system/recipes'
+} from '@aurorakit/styled-system/recipes'
 
 export const Card = styled('div', card)
 export const CardHeader = styled('div', cardHeader)

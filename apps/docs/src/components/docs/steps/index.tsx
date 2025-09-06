@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { css, cx } from '@shadow-panda/styled-system/css'
+import { css, cx } from '@aurorakit/styled-system/css'
 
 export type StepsProps = React.ComponentProps<'div'>
 

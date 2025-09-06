@@ -1,7 +1,7 @@
 'use client'
 
-import { css } from '@shadow-panda/styled-system/css'
-import { muted } from '@shadow-panda/styled-system/recipes'
+import { css } from '@aurorakit/styled-system/css'
+import { muted } from '@aurorakit/styled-system/recipes'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'

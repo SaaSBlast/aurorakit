@@ -1,5 +1,5 @@
 import { Loader2 } from 'lucide-react'
-import { css } from '@shadow-panda/styled-system/css'
+import { css } from '@aurorakit/styled-system/css'
 
 export const LoadingText = () => (
   <div

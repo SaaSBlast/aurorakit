@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { styled } from '@shadow-panda/styled-system/jsx'
+import { styled } from '@aurorakit/styled-system/jsx'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Separator } from '@/components/ui/separator'
 

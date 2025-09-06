@@ -1,5 +1,5 @@
 {
-  "name": "@shadow-panda/docs",
+  "name": "@aurorakit/docs",
   "version": "0.0.1",
   "private": true,
   "license": "MIT",
@@ -59,8 +59,8 @@
   },
   "devDependencies": {
     "@pandacss/dev": "0.17.1",
-    "@shadow-panda/preset": "workspace:*",
-    "@shadow-panda/style-context": "workspace:*",
+    "@aurorakit/preset": "workspace:*",
+    "@aurorakit/style-context": "workspace:*",
     "@theguild/remark-npm2yarn": "0.2.0",
     "@types/react": "18.2.34",
     "@types/unist": "3.0.1",

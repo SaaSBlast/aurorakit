@@ -1,4 +1,4 @@
-import { p } from '@shadow-panda/styled-system/recipes'
+import { p } from '@aurorakit/styled-system/recipes'
 
 export default function Example() {
   return (

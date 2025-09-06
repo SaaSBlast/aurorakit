@@ -1,4 +1,4 @@
-import { css } from '@shadow-panda/styled-system/css'
+import { css } from '@aurorakit/styled-system/css'
 import { Label } from '@/components/ui/label'
 import { Input } from '@/components/ui/input'
 

@@ -11,15 +11,15 @@ import {
   FormProvider,
   useFormContext,
 } from 'react-hook-form'
-import { styled } from '@shadow-panda/styled-system/jsx'
-import { css, cx } from '@shadow-panda/styled-system/css'
+import { styled } from '@aurorakit/styled-system/jsx'
+import { css, cx } from '@aurorakit/styled-system/css'
 import {
   formLabel,
   formItem,
   formControl,
   formDescription,
   formMessage,
-} from '@shadow-panda/styled-system/recipes'
+} from '@aurorakit/styled-system/recipes'
 import { Label } from '@/components/ui/label'
 
 type FormFieldContextValue<

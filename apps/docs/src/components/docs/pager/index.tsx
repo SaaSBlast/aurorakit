@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { ChevronLeftIcon, ChevronRightIcon } from 'lucide-react'
-import { css, cx } from '@shadow-panda/styled-system/css'
+import { css, cx } from '@aurorakit/styled-system/css'
 import { allDocuments, type DocumentTypes } from 'contentlayer/generated'
 import { Button } from '@/components/ui/button'
 import { sortDocs } from '@/lib/sort-docs'

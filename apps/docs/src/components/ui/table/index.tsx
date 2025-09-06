@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { styled } from '@shadow-panda/styled-system/jsx'
+import { styled } from '@aurorakit/styled-system/jsx'
 import {
   tableContainer,
   table,
@@ -10,7 +10,7 @@ import {
   tableRow,
   tableCell,
   tableCaption,
-} from '@shadow-panda/styled-system/recipes'
+} from '@aurorakit/styled-system/recipes'
 
 const TableContainer = styled('div', tableContainer)
 

@@ -1,5 +1,5 @@
 import { Calculator, Calendar, CreditCard, Settings, Smile, User } from 'lucide-react'
-import { icon } from '@shadow-panda/styled-system/recipes'
+import { icon } from '@aurorakit/styled-system/recipes'
 import {
   Command,
   CommandEmpty,

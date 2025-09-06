@@ -5,9 +5,9 @@ import {
   ChevronsRightIcon,
 } from 'lucide-react'
 import { Table } from '@tanstack/react-table'
-import { css } from '@shadow-panda/styled-system/css'
-import { Flex, Box } from '@shadow-panda/styled-system/jsx'
-import { icon } from '@shadow-panda/styled-system/recipes'
+import { css } from '@aurorakit/styled-system/css'
+import { Flex, Box } from '@aurorakit/styled-system/jsx'
+import { icon } from '@aurorakit/styled-system/recipes'
 import { Button } from '@/components/ui/button'
 import {
   Select,

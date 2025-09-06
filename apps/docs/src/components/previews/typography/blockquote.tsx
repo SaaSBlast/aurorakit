@@ -1,4 +1,4 @@
-import { blockquote } from '@shadow-panda/styled-system/recipes'
+import { blockquote } from '@aurorakit/styled-system/recipes'
 
 export default function Example() {
   return (

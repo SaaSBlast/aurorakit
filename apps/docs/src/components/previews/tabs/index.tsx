@@ -1,4 +1,4 @@
-import { styled } from '@shadow-panda/styled-system/jsx'
+import { styled } from '@aurorakit/styled-system/jsx'
 import { Button } from '@/components/ui/button'
 import {
   Card,

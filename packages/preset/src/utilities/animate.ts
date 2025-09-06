@@ -10,11 +10,11 @@ export const animate: UtilityConfig = {
       return {
         animationName: 'enter',
         animationDuration: token('durations.fast'),
-        '--shadow-panda-enter-opacity': 1,
-        '--shadow-panda-enter-scale': 1,
-        '--shadow-panda-enter-rotate': 0,
-        '--shadow-panda-enter-translate-x': 0,
-        '--shadow-panda-enter-translate-y': 0,
+        '--aurorakit-enter-opacity': 1,
+        '--aurorakit-enter-scale': 1,
+        '--aurorakit-enter-rotate': 0,
+        '--aurorakit-enter-translate-x': 0,
+        '--aurorakit-enter-translate-y': 0,
       }
     },
   },
@@ -27,11 +27,11 @@ export const animate: UtilityConfig = {
       return {
         animationName: 'exit',
         animationDuration: token('durations.fast'),
-        '--shadow-panda-exit-opacity': 1,
-        '--shadow-panda-exit-scale': 1,
-        '--shadow-panda-exit-rotate': 0,
-        '--shadow-panda-exit-translate-x': 0,
-        '--shadow-panda-exit-translate-y': 0,
+        '--aurorakit-exit-opacity': 1,
+        '--aurorakit-exit-scale': 1,
+        '--aurorakit-exit-rotate': 0,
+        '--aurorakit-exit-translate-x': 0,
+        '--aurorakit-exit-translate-y': 0,
       }
     },
   },
@@ -40,7 +40,7 @@ export const animate: UtilityConfig = {
     values: 'opacity',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-enter-opacity': value,
+        '--aurorakit-enter-opacity': value,
       }
     },
   },
@@ -49,7 +49,7 @@ export const animate: UtilityConfig = {
     values: 'opacity',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-exit-opacity': value,
+        '--aurorakit-exit-opacity': value,
       }
     },
   },
@@ -57,7 +57,7 @@ export const animate: UtilityConfig = {
     className: 'animate_zoom_in',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-enter-scale': Number(value) / 100,
+        '--aurorakit-enter-scale': Number(value) / 100,
       }
     },
   },
@@ -65,7 +65,7 @@ export const animate: UtilityConfig = {
     className: 'animate_zoom_out',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-exit-scale': Number(value) / 100,
+        '--aurorakit-exit-scale': Number(value) / 100,
       }
     },
   },
@@ -73,7 +73,7 @@ export const animate: UtilityConfig = {
     className: 'animate_spin_in',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-enter-rotate': value,
+        '--aurorakit-enter-rotate': value,
       }
     },
   },
@@ -81,7 +81,7 @@ export const animate: UtilityConfig = {
     className: 'animate_spin_out',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-exit-rotate': value,
+        '--aurorakit-exit-rotate': value,
       }
     },
   },
@@ -90,7 +90,7 @@ export const animate: UtilityConfig = {
     values: 'spacing',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-enter-translate-y': `calc(${value} * -1)`,
+        '--aurorakit-enter-translate-y': `calc(${value} * -1)`,
       }
     },
   },
@@ -99,7 +99,7 @@ export const animate: UtilityConfig = {
     values: 'spacing',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-enter-translate-y': value,
+        '--aurorakit-enter-translate-y': value,
       }
     },
   },
@@ -108,7 +108,7 @@ export const animate: UtilityConfig = {
     values: 'spacing',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-enter-translate-x': `calc(${value} * -1)`,
+        '--aurorakit-enter-translate-x': `calc(${value} * -1)`,
       }
     },
   },
@@ -117,7 +117,7 @@ export const animate: UtilityConfig = {
     values: 'spacing',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-enter-translate-x': value,
+        '--aurorakit-enter-translate-x': value,
       }
     },
   },
@@ -126,7 +126,7 @@ export const animate: UtilityConfig = {
     values: 'spacing',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-exit-translate-y': `calc(${value} * -1)`,
+        '--aurorakit-exit-translate-y': `calc(${value} * -1)`,
       }
     },
   },
@@ -135,7 +135,7 @@ export const animate: UtilityConfig = {
     values: 'spacing',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-exit-translate-y': value,
+        '--aurorakit-exit-translate-y': value,
       }
     },
   },
@@ -144,7 +144,7 @@ export const animate: UtilityConfig = {
     values: 'spacing',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-exit-translate-x': `calc(${value} * -1)`,
+        '--aurorakit-exit-translate-x': `calc(${value} * -1)`,
       }
     },
   },
@@ -153,7 +153,7 @@ export const animate: UtilityConfig = {
     values: 'spacing',
     transform: (value: number | string) => {
       return {
-        '--shadow-panda-exit-translate-x': value,
+        '--aurorakit-exit-translate-x': value,
       }
     },
   },

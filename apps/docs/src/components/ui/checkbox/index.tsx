@@ -3,9 +3,9 @@
 import * as React from 'react'
 import * as CheckboxPrimitive from '@radix-ui/react-checkbox'
 import { Check } from 'lucide-react'
-import { styled } from '@shadow-panda/styled-system/jsx'
-import { cx } from '@shadow-panda/styled-system/css'
-import { checkbox, icon } from '@shadow-panda/styled-system/recipes'
+import { styled } from '@aurorakit/styled-system/jsx'
+import { cx } from '@aurorakit/styled-system/css'
+import { checkbox, icon } from '@aurorakit/styled-system/recipes'
 
 const BaseCheckbox = React.forwardRef<
   React.ElementRef<typeof CheckboxPrimitive.Root>,

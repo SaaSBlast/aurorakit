@@ -2,7 +2,7 @@ import * as React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { HashIcon } from 'lucide-react'
-import { cx, css } from '@shadow-panda/styled-system/css'
+import { cx, css } from '@aurorakit/styled-system/css'
 import {
   h1,
   h2,
@@ -15,7 +15,7 @@ import {
   typographyTableContainer,
   typographyTable,
   inlineCode,
-} from '@shadow-panda/styled-system/recipes'
+} from '@aurorakit/styled-system/recipes'
 import {
   Accordion,
   AccordionContent,

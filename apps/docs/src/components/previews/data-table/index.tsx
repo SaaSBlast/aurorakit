@@ -14,9 +14,9 @@ import {
   useReactTable,
 } from '@tanstack/react-table'
 import { ArrowUpDown, ChevronDown, MoreHorizontal } from 'lucide-react'
-import { css } from '@shadow-panda/styled-system/css'
-import { Box, Flex } from '@shadow-panda/styled-system/jsx'
-import { icon } from '@shadow-panda/styled-system/recipes'
+import { css } from '@aurorakit/styled-system/css'
+import { Box, Flex } from '@aurorakit/styled-system/jsx'
+import { icon } from '@aurorakit/styled-system/recipes'
 import { Button } from '@/components/ui/button'
 import { Checkbox } from '@/components/ui/checkbox'
 import {

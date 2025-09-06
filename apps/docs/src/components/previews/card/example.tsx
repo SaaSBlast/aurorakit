@@ -1,7 +1,7 @@
 import { BellRing, Check } from 'lucide-react'
-import { Grid, Flex } from '@shadow-panda/styled-system/jsx'
-import { css } from '@shadow-panda/styled-system/css'
-import { small, muted, icon } from '@shadow-panda/styled-system/recipes'
+import { Grid, Flex } from '@aurorakit/styled-system/jsx'
+import { css } from '@aurorakit/styled-system/css'
+import { small, muted, icon } from '@aurorakit/styled-system/recipes'
 import { Button } from '@/components/ui/button'
 import {
   Card,

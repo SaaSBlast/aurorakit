@@ -2,7 +2,7 @@
 
 import { SlidersHorizontalIcon } from 'lucide-react'
 import { Table } from '@tanstack/react-table'
-import { icon } from '@shadow-panda/styled-system/recipes'
+import { icon } from '@aurorakit/styled-system/recipes'
 import { Button } from '@/components/ui/button'
 import {
   DropdownMenu,

@@ -3,8 +3,8 @@
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import * as z from 'zod'
-import { Flex } from '@shadow-panda/styled-system/jsx'
-import { css } from '@shadow-panda/styled-system/css'
+import { Flex } from '@aurorakit/styled-system/jsx'
+import { css } from '@aurorakit/styled-system/css'
 import { Button } from '@/components/ui/button'
 import { Checkbox } from '@/components/ui/checkbox'
 import {

@@ -1,4 +1,4 @@
-# @shadow-panda/style-context
+# @aurorakit/style-context
 
 ## 0.7.1
 

@@ -16,7 +16,7 @@ export default defineConfig({
   },
 
   // Presets
-  presets: ['@shadow-panda/preset'],
+  presets: ['@aurorakit/preset'],
 
   // Where to look for your css declarations
   include: ['./src/**/*.{js,jsx,ts,tsx,mdx}', './theme.config.tsx'],
@@ -25,5 +25,5 @@ export default defineConfig({
   exclude: [],
 
   emitPackage: true,
-  outdir: '@shadow-panda/styled-system',
+  outdir: '@aurorakit/styled-system',
 })

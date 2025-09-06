@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { CheckIcon, CopyIcon } from 'lucide-react'
-import { css } from '@shadow-panda/styled-system/css'
-import { icon } from '@shadow-panda/styled-system/recipes'
+import { css } from '@aurorakit/styled-system/css'
+import { icon } from '@aurorakit/styled-system/recipes'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip'
 import { Button, type ButtonProps } from '@/components/ui/button'
 

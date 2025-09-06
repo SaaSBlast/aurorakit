@@ -1,17 +1,17 @@
 {
-  "name": "@shadow-panda/preset",
+  "name": "@aurorakit/preset",
   "description": "The preset for PandaCSS that contains the theme for Shadow Panda",
   "version": "0.7.1",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "homepage": "https://shadow-panda.dev",
+  "homepage": "https://aurorakit.saasblast.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kumaaa-inc/shadow-panda.git"
+    "url": "git+https://github.com/saasblast/aurorakit.git"
   },
   "bugs": {
-    "url": "https://github.com/kumaaa-inc/shadow-panda/issues"
+    "url": "https://github.com/saasblast/aurorakit/issues"
   },
   "files": [
     "dist"

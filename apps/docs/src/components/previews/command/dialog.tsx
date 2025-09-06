@@ -2,8 +2,8 @@
 
 import * as React from 'react'
 import { Calculator, Calendar, CreditCard, Settings, Smile, User } from 'lucide-react'
-import { css } from '@shadow-panda/styled-system/css'
-import { muted, icon } from '@shadow-panda/styled-system/recipes'
+import { css } from '@aurorakit/styled-system/css'
+import { muted, icon } from '@aurorakit/styled-system/recipes'
 import {
   CommandDialog,
   CommandEmpty,

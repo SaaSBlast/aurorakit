@@ -2,9 +2,9 @@
 
 import * as React from 'react'
 import * as SwitchPrimitive from '@radix-ui/react-switch'
-import { styled } from '@shadow-panda/styled-system/jsx'
-import { cx } from '@shadow-panda/styled-system/css'
-import { switchRecipe } from '@shadow-panda/styled-system/recipes'
+import { styled } from '@aurorakit/styled-system/jsx'
+import { cx } from '@aurorakit/styled-system/css'
+import { switchRecipe } from '@aurorakit/styled-system/recipes'
 
 const BaseSwitch = React.forwardRef<
   React.ElementRef<typeof SwitchPrimitive.Root>,

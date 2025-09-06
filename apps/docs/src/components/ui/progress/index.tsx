@@ -2,9 +2,9 @@
 
 import * as React from 'react'
 import * as ProgressPrimitive from '@radix-ui/react-progress'
-import { styled } from '@shadow-panda/styled-system/jsx'
-import { cx } from '@shadow-panda/styled-system/css'
-import { progress } from '@shadow-panda/styled-system/recipes'
+import { styled } from '@aurorakit/styled-system/jsx'
+import { cx } from '@aurorakit/styled-system/css'
+import { progress } from '@aurorakit/styled-system/recipes'
 
 const BaseProgress = React.forwardRef<
   React.ElementRef<typeof ProgressPrimitive.Root>,

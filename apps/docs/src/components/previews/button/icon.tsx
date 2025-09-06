@@ -1,5 +1,5 @@
 import { ChevronRight } from 'lucide-react'
-import { css } from '@shadow-panda/styled-system/css'
+import { css } from '@aurorakit/styled-system/css'
 import { Button } from '@/components/ui/button'
 
 export default function Example() {

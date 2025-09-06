@@ -1,4 +1,4 @@
-import { lead } from '@shadow-panda/styled-system/recipes'
+import { lead } from '@aurorakit/styled-system/recipes'
 
 export default function Example() {
   return (

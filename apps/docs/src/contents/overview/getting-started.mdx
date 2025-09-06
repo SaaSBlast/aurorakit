@@ -17,11 +17,11 @@ order: 2
 Install the preset, and the style context utility package used by most components
 
 ```sh npm2yarn
-npm i -D @shadow-panda/preset
+npm i -D @aurorakit/preset
 ```
 
 ```sh npm2yarn
-npm i @shadow-panda/style-context
+npm i @aurorakit/style-context
 ```
 
 ### Step 2
@@ -33,7 +33,7 @@ import { defineConfig } from '@pandacss/dev'
 
 export default defineConfig({
   // Required: Add the preset to your config.
-  presets: ['@shadow-panda/preset'],
+  presets: ['@aurorakit/preset'],
 
   // Optional: Enable CSS reset
   preflight: true,
@@ -42,11 +42,11 @@ export default defineConfig({
   jsxFramework: 'react',
 
   // Optional: Emit artifacts to `node_modules` as a package.
-  // The copy-paste component examples use `@shadow-panda/styled-system` as the import path of the generated files.
+  // The copy-paste component examples use `@aurorakit/styled-system` as the import path of the generated files.
   // If you choose not to use this option, you should rewrite your component imports as needed.
   // @see https://panda-css.com/docs/references/config#emitpackage
   emitPackage: true,
-  outdir: '@shadow-panda/styled-system',
+  outdir: '@aurorakit/styled-system',
 
   // Other configurations and overrides...
 })

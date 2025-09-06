@@ -1,4 +1,4 @@
-import { Grid, Flex } from '@shadow-panda/styled-system/jsx'
+import { Grid, Flex } from '@aurorakit/styled-system/jsx'
 import { Switch } from '@/components/ui/switch'
 import { Label } from '@/components/ui/label'
 

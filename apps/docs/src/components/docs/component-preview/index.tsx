@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { css } from '@shadow-panda/styled-system/css'
+import { css } from '@aurorakit/styled-system/css'
 import { Preview } from '@/components/docs/preview'
 import { Tabs, Tab } from '@/components/docs/tabs'
 import { LoadingText } from '@/components/docs/loading-text'

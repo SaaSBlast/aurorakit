@@ -14,7 +14,7 @@ import { layerStyles } from './layer-styles'
 
 const defineConfig = <T extends Config>(config: T) => config
 
-export const shadowPandaPreset = defineConfig({
+export const auroraKitPreset = defineConfig({
   presets: [pandaPreset],
   globalCss,
   conditions,
@@ -33,4 +33,4 @@ export const shadowPandaPreset = defineConfig({
   },
 })
 
-export default shadowPandaPreset
+export default auroraKitPreset

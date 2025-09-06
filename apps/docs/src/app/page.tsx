@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button'
-import { css } from '@shadow-panda/styled-system/css'
-import { h1, lead } from '@shadow-panda/styled-system/recipes'
+import { css } from '@aurorakit/styled-system/css'
+import { h1, lead } from '@aurorakit/styled-system/recipes'
 import Link from 'next/link'
 
 const Page = () => {

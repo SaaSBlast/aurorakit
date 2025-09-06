@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Grid, Flex } from '@shadow-panda/styled-system/jsx'
+import { Grid, Flex } from '@aurorakit/styled-system/jsx'
 import { Button } from '@/components/ui/button'
 import {
   Card,

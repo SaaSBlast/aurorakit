@@ -1,13 +1,13 @@
 {
-  "name": "shadow-panda",
+  "name": "aurorakit",
   "version": "0.0.1",
   "description": "Panda CSS preset for shadcn/ui & Radix UI",
-  "author": "nanopx <0nanopx@gmail.com>",
+  "author": "SaaSBlast <pixtanegithub@gmail.com>",
   "license": "MIT",
   "scripts": {
     "prepare": "husky install && pnpm build-fast",
-    "packages:preset": "pnpm -F @shadow-panda/preset",
-    "apps:docs": "pnpm -F @shadow-panda/docs",
+    "packages:preset": "pnpm -F @aurorakit/preset",
+    "apps:docs": "pnpm -F @aurorakit/docs",
     "dev:docs": "pnpm apps:docs dev",
     "dev": "pnpm -r --parallel dev",
     "reload": "pnpm build-fast && pnpm apps:docs compile",
@@ -21,7 +21,7 @@
   },
   "packageManager": "pnpm@8.6.5",
   "keywords": [
-    "shadow-panda",
+    "aurorakit",
     "shadcn/ui",
     "pandacss",
     "radix-ui",

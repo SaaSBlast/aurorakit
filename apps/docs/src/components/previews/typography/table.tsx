@@ -1,4 +1,4 @@
-import { typographyTableContainer, typographyTable } from '@shadow-panda/styled-system/recipes'
+import { typographyTableContainer, typographyTable } from '@aurorakit/styled-system/recipes'
 
 export default function Example() {
   return (
